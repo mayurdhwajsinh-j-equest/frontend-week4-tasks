@@ -1,0 +1,85 @@
+@media only screen and (max-width: 599px)
+{
+
+    .header-section
+    {
+        background-size: 100% 100%;
+    }
+
+    .container
+    {
+        max-width: 100%;
+    }
+
+    .navbar-links
+    {
+        display: none;
+    }
+
+    .top-section__text {
+        position: absolute;
+        color: white;
+        margin-top: 20px;
+        left: 40px;
+        right: 40px;
+    }
+
+    .top-section__text-h1
+    {
+        font-size: 20px;
+    }
+
+    .top-section__text-p
+    {
+        font-size: 15px;
+    }
+
+    .top-section__details
+    {
+        flex-direction: column;
+        gap :20px;
+    }
+
+    .top-section__details-items
+    {
+        flex-direction: column;
+    }
+
+    .selling-product__title
+    {
+        text-align: center;
+    }
+
+    .products,.product-group
+    {
+        flex-direction: column;
+    }
+
+    .client__review-items
+    {
+        flex-direction: column;
+
+    }
+
+    .footer__top
+    {
+        flex-direction: column;
+    }
+    
+    .footer__links
+    {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .footer__bottom
+    {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .experience
+    {
+        flex-direction: column;
+    }
+}
